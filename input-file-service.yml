@@ -1,0 +1,15 @@
+
+# Database configuration
+# mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
+datasource:
+  jdbc-url: jdbc:mariadb://mariadb-service:3306/input_files
+  username: root
+  password: root
+  driver-class-name: org.mariadb.jdbc.Driver
+  minimum-idle:1
+  
+jpa:
+  hibernate:
+    bm2ddl:
+      auto: validate
+ 
