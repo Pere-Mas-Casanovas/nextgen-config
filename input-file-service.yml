@@ -1,4 +1,10 @@
 
+server:
+  port: 7071
+  servlet:
+    context:
+      path: /order2cash/nextgen6/input-file
+      
 # Database configuration
 # mmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
 datasource:
